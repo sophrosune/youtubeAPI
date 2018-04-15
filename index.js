@@ -33,7 +33,7 @@ function showResults(results){
           output +=`<li>
             <a href="https://www.youtube.com/watch?v=${videoId}" target="_blank">
               <p>${title}</p>
-              <img src="${thumb}"/>
+              <img src="${thumb}" alt="thumbnail from video search result"/>
             </a>
           </li>`;
         }
